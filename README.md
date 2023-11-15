@@ -1,4 +1,4 @@
-# Unbiased-and-Multilevel-Methods-for-Diffusions-Partially-Observed-via-Marked-Point-Processes
+# Multilevel-Methods-for-Diffusions-of-observed-Marked-Point-Processes
 This file is comprised of several .py files that include the definition of the functions, test files and one file used for parallelization in High Performance Computing (HPC). The definition of the functions for the single particle filter are in 
 PF_functions_def.py (here are also the functions to estimate the score function wiht the smoother and compute the SGA), the coupling of the filter and the functions for the MLPF and the unbiased particle filter are in Un_cox_PF_functions_def.py,
 in 1Parallelization_Cox_PF.py we adapt the code to paralellize it; finally, the rest of the functions are test functions for the four diffusion processes tested. The functions where files are defined are documented and described at the beginning of the files, several test of the basic functions are also included (commented).
